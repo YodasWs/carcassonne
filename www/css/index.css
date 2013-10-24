@@ -1,0 +1,16 @@
+template { display: none; }
+section { display: none; }
+
+/* Main Menu */
+body > nav {
+	width: 98%; max-width: 400px; margin: 0 auto;
+}
+body > nav > a {
+	display: block; color: dimgrey;
+}
+body > nav > a:hover {
+	color: black; text-decoration: none;
+}
+body > nav > a::before {
+	display: block; float: left; content: '\2022 \2002'; clear: left; color: black;
+}
