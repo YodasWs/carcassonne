@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
+	versionCode="1" version="0.0.1" id="ws.yodas.carcassonne">
+
+<name>Carcassonne Helper</name>
+<description>Carcassonne Helper, featuring an expansion randomizer, score keeper, and rules explanation.</description>
+<author href="http://yodas.ws" email="samuel@yodas.ws">Samuel B Grundman</author>
+
+<preference name="orientation" value="portraite"/>
+
+<!-- Maybe for online score keeping ?
+<feature name="http://api.phonegap.com/1.0/device" />
+<access origin="http://yodas.ws" />
+-->
+
+<!-- For storing score records -->
+<feature name="http://api.phonegap.com/1.0/file" />
+
+<gap:platform name="android"/>
+<!--
+<gap:platform name="ios"/>
+<gap:platform name="winphone"/>
+-->
+</widget>
