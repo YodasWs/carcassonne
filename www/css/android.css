@@ -9,7 +9,9 @@ section form {
 }
 
 /* App Header */
-body {padding-top:4em;}
+body {
+	padding-top: 4em;
+}
 body > header {
 	position: fixed; top: 0;
 	padding: 5px 0; margin: 0; width: 100%; text-align: left; background: dimgrey; color: whitesmoke;
@@ -22,6 +24,14 @@ body > header > a:first-child {
 }
 body > header > a:first-child + h1 {
 	margin-left: 2px;
+}
+
+/* Main Menu */
+body > nav > a.btn-default {
+	background-color: whitesmoke;
+}
+body > nav > a::before {
+	display: none; content: '';
 }
 
 /* Dropdown Selectors */

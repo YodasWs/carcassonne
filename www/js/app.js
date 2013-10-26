@@ -10,6 +10,7 @@
 	case 'Android':
 	default:
 		$('link').last().after('<link rel="stylesheet" href="css/android.css"/>');
+		$('nav').addClass('btn-group-vertical').find('a').addClass('btn').addClass('btn-default');
 		break;
 	}
 
